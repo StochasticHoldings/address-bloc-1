@@ -1,6 +1,6 @@
 require 'sqlite3'
 require 'bloc_record/schema'
-
+#made original branch in master for this checkpoint
 module Persistence
   def self.included(base)
     base.extend(ClassMethods)
